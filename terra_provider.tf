@@ -7,8 +7,8 @@ terraform {
 }
 }
 provider "azurerm" {
-  # Configuration options
-}
+features{}
+ }
 # Create a resource group
 resource "azurerm_resource_group" "example" {
   name     = "example-resources"
